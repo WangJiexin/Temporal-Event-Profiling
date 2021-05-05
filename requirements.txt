@@ -1,0 +1,2 @@
+googledrivedownloader
+sentence-transformers
