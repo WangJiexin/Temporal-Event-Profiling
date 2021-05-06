@@ -14,3 +14,5 @@ The third step is to calculate the similarity between event description and the 
 
 ## 4. Model Input Data Preparation (4_preprare_input_data.py)
 The final step prepares two kinds of data, that can be easily transformed to multivariate time series. 
+- `event_text`: The event description.
+- `event_text`: The event description.
