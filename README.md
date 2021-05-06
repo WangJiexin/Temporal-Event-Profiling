@@ -54,4 +54,4 @@ python model.py --temp_granularity Year
 A `data/models` folder will be created if you first run the above code, and all the models of specified granularity will be saved in this folder.
 Note that if you use finer granularities (e.g., day, week), you need to use larger gpu memory or/and reduce the batch size.
 
-## Multivariate Time Series Calculation And Model Input
+## Prepare Multivariate Time Series And Model Input
