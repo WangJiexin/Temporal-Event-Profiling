@@ -56,5 +56,4 @@ A `data/models` folder will be created if you run the above code at the first ti
 Note that if you choose finer granularities (e.g., Week, Day), you need to use larger gpu memory or/and reduce the batch size.
 
 ## Prepare Multivariate Time Series And Model Input
-
-The process of preparing multivariate time series and necessary data are described in the `data_processing` [README](data_processing/README.md).
+Steps to prepare multivariate time series and necessary data input are described in the `data_processing` [README](data_processing/README.md).
