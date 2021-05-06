@@ -10,9 +10,9 @@ The event dataset is stored in the `data/dataset` folder. The datasets is stored
 ```
 In [1]: import pandas as pd
 
-In [2]: data = pd.read_pickle("data/dataset/wotd.pkl")
+In [2]: event_data = pd.read_pickle("data/dataset/event_data.pickle")
 
-In [3]: data.head()
+In [3]: event_data.head()
 Out[3]:
 
                                                event_text       event_time      split
