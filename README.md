@@ -52,6 +52,6 @@ Specify a granularity (Year, Month, Week, Day) and train the model.
 python model.py --temp_granularity Year
 ```
 A `data/models` folder will be created if you first run the above code, and all the models of specified granularity will be saved in this folder.
-Note that if you use finer granularities (e.g., day, week), you need to use larger gpu memory or/and reduce the batch size.
+Note that if you use finer granularities (e.g., Week, Day), you need to use larger gpu memory or/and reduce the batch size.
 
 ## Prepare Multivariate Time Series And Model Input
