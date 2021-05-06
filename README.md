@@ -24,7 +24,7 @@ Out[3]:
 
 ```
 
-The key key columns are:
+The definitions of the three key columns are:
 - `event_text`: The event description.
 - `event_time`: The event occurrence time at day granularity.
 - `split`: The set that this record belongs to (training set, validation set or test set).
@@ -34,8 +34,9 @@ The key key columns are:
 ### Packages
 In order to run the model, you need to install a few packages. We recommend using [conda](https://docs.conda.io/en/latest/):
 ```bash
-conda create -n test python=3.7 anaconda
-git clone git@github.com:WangJiexin/Temporal-Event-Profiling.git
+conda create -n tep-trans python=3.7 anaconda
+conda activate tep-trans
+git clone https://github.com/WangJiexin/Temporal-Event-Profiling
 cd Temporal-Event-Profiling
 pip install -r requirements.txt
 ```
@@ -47,11 +48,13 @@ python download_data.py
 ```
 
 ### Train the model
-Specify a granularity (Year, Month, Week, Day) and train the model.
+Specify a temporal granularity (Year, Month, Week, Day) and train the model.
 ```bash
 python model.py --temp_granularity Year
 ```
-A `data/models` folder will be created if you first run the above code, and all the models of specified granularity will be saved in this folder.
-Note that if you use finer granularities (e.g., Week, Day), you need to use larger gpu memory or/and reduce the batch size.
+A `data/models` folder will be created if you run the above code at the first time and the models of specified granularities will be saved in this folder.
+Note that if you choose finer granularities (e.g., Week, Day), you need to use larger gpu memory or/and reduce the batch size.
 
 ## Prepare Multivariate Time Series And Model Input
+
+The process of preparing multivariate time series and necessary data are described in the `data_processing` [README](data_processing/README.md).
