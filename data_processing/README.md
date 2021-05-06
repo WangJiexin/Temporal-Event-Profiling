@@ -23,11 +23,8 @@ Out: [10028, ' Donald Trump proposes to Marla Maples and gives her a 7.5 carat d
 - 2).`doc_tempinfor_input.pickle`: A dict type data, that the key is the doc-id, and the value is the list of another dict. The *i-th* dict denotes the *'event_sent_score'* and *'normalized_temp'* information of the *i-th* temporal sentences of the document. For example:
 ```
 In: doc_tempinfor_input['1638494']
-Out: [{'event_sent_score': {'0': 0.03937406, '2944': 0.13401237},
-  'normalized_temp': ['20050101', '20051231']},
- {'event_sent_score': {'0': 0.03937406, '2944': 0.13401237},
-  'normalized_temp': ['20060101', '20061231']},
- {'event_sent_score': {'0': 0.4056359, '2944': 0.03333078},
-  'normalized_temp': ['20100101', '20101231']}]
+Out: [{'event_sent_score': {'0': 0.03937406, '2944': 0.13401237},'normalized_temp': ['20050101', '20051231']},
+ {'event_sent_score': {'0': 0.03937406, '2944': 0.13401237},'normalized_temp': ['20060101', '20061231']},
+ {'event_sent_score': {'0': 0.4056359, '2944': 0.03333078},'normalized_temp': ['20100101', '20101231']}]
 ``` 
 The first dict element of the list of doc_tempinfor_input ['1638494'], denotes the information of the first temporal sentence of document '1638494', the values of 'normalized_temp' denotes the normalized temporal information of this temporal sentence, and the values of 'event_sent_score' denotes the similarity values between this temporal sentence and event '0' and  event '2944'. (Also reveals that document '1638494' is in the top-50 relevant doc-id of event '0' and  event '2944')
