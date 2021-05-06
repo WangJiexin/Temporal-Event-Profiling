@@ -5,7 +5,7 @@ This is the repository containing the code for the TEP-Trans model described in 
 
 ## Using the Dataset
 
-The event dataset is stored in the `data/dataset` folder. The datasets is stored as pandas dataframes in pickle files and you can load them as follows:
+The event dataset is stored in the `data/dataset` folder. The dataset is stored as pandas dataframes in pickle file and you can load it as follows:
 
 ```
 In [1]: import pandas as pd
