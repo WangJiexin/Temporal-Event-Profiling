@@ -20,9 +20,7 @@ Each event_reldoc is a list, and is consist of *[event-id, event text, event occ
 
 - `doc_tempinfor_input.pickle`: A dict type data, that the key is the doc-id, and the value is the list of another dict. The *i-th* dict denotes the information of the *i-th* temporal sentences of the document. For example:
 
-
 ```
-...
 In: doc_tempinfor_input['1638494']
 Out: [{'event_sent_score': {'0': 0.03937406, '2944': 0.13401237},
   'normalized_temp': ['20050101', '20051231']},
