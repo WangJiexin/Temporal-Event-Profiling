@@ -32,7 +32,7 @@ def ir_method(keywords_list):
         keywords_string=keywords_string+r"\""+k+r"\"|"
     keywords_string=keywords_string[:-2]+"\""
     elastic_curl_command=r"""curl -u XXXnytcorpus_commandXXX?scroll=10m&size=50' ¥ -H 'Content-Type: application/json' ¥ --data-raw '{"query": {"simple_query_string":{"query":"query_keywords_string","fields" : ["body"]}}}'"""
-    #please define your own elastic_curl_command (replace XXXnytcorpus_commandXXX)
+    #please define your own elastic_curl_command (replace XXXnytcorpus_commandXXX if you use ElasticSearch)
     elastic_command=elastic_curl_command.replace("query_keywords_string",keywords_string)
     
     es_result = os.popen(elastic_command).readlines()
