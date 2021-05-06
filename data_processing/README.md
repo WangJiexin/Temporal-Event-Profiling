@@ -14,13 +14,13 @@ The third step is to calculate the similarity between event description and the 
 
 ## 4. Model Input Data Preparation (4_preprare_input_data.py)
 The final step prepares two kinds of data, that can be easily transformed to multivariate time series, which are the input of TEP-Trans model. The two kinds of data are:
-- `event_docinfor_input.pickle`: List of event_reldoc data.  
+- 1).`event_docinfor_input.pickle`: List of event_reldoc data.  
 Each event_reldoc is a list, and is consist of *[event-id, event text, event occurence time, top-50 publication time, top-50 bm25 scores, top-50 doc-id, split]*. For example:  
 ```
 In: event_docinfor_input[10028]
 Out: [10028, ' Donald Trump proposes to Marla Maples and gives her a 7.5 carat diamond ring', '1991-07-02', ('1991-09-23', '1991-07-07', '1993-12-17', ...), [118.617065, 113.65213, 82.18502, ...], ('475847', '458195', '656480', ...), 'train'].
 ```
-- `doc_tempinfor_input.pickle`: A dict type data, that the key is the doc-id, and the value is the list of another dict. The *i-th* dict denotes the information of the *i-th* temporal sentences of the document. For example:
+- 2).`doc_tempinfor_input.pickle`: A dict type data, that the key is the doc-id, and the value is the list of another dict. The *i-th* dict denotes the information of the *i-th* temporal sentences of the document. For example:
 ```
 In: doc_tempinfor_input['1638494']
 Out: [{'event_sent_score': {'0': 0.03937406, '2944': 0.13401237},
