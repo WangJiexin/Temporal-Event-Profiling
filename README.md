@@ -1,7 +1,7 @@
 
 # Temporal Event Profiling: TEP-Trans
 
-This is the repository containing the code for the TEP-Trans model described in the Sigir 2021 paper "Temporal Event Profiling based on Multivariate Time Series Analysis over Temporal Document Collections".
+This is the repository containing the code for the TEP-Trans model described in the Sigir 2021 paper **"Temporal Event Profiling based on Multivariate Time Series Analysis over Temporal Document Collections".**
 
 ## Using the Dataset
 
