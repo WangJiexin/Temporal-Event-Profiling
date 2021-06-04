@@ -65,4 +65,5 @@ Steps to prepare multivariate time series and necessary data input are described
   author={Wang, Jiexin and Jatowt, Adam and Yoshikawa, Masatoshi},
   booktitle={The 44th International ACM SIGIR Conference on Research and Development in Information Retrieva},
   year={2021}
+  }
 ```
