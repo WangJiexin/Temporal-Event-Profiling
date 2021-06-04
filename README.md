@@ -57,3 +57,11 @@ Note that if you choose finer granularities (e.g., Week, Day), you need to use l
 
 ## Prepare Multivariate Time Series And Model Input
 Steps to prepare multivariate time series and necessary data input are described in the `data_processing` [README](data_processing/README.md).
+
+## Citation
+
+@inproceedings{SIGIR2021,
+  title={Event Occurrence Date Estimation based on Multivariate Time Series Analysis over Temporal Document Collections},
+  author={Wang, Jiexin and Jatowt, Adam and Yoshikawa, Masatoshi},
+  booktitle={The 44th International ACM SIGIR Conference on Research and Development in Information Retrieva},
+  year={2021}
