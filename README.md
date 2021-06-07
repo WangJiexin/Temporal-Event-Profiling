@@ -63,7 +63,7 @@ Steps to prepare multivariate time series and necessary data input are described
 @inproceedings{SIGIR2021,
   title={Event Occurrence Date Estimation based on Multivariate Time Series Analysis over Temporal Document Collections},
   author={Wang, Jiexin and Jatowt, Adam and Yoshikawa, Masatoshi},
-  booktitle={The 44th International ACM SIGIR Conference on Research and Development in Information Retrieva},
+  booktitle={The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},
   year={2021}
   }
 ```
